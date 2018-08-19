@@ -1,0 +1,41 @@
+#navbar {
+    margin: 25px;
+}
+
+#navbar a {
+    color: var(--color-light);
+}
+
+#navbar .nav-logo img {
+    max-width: 55px;
+}
+
+#navbar .nav-logo a.title {
+    font-size: 1.8rem;
+    font-family: "Roboto-Medium";
+    vertical-align: middle;
+}
+
+#logo-img {
+    opacity: 0;
+}
+
+#logo-hover {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+#logo-line {
+    width: 0%;
+    height: 4px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+#hamburger {
+    opacity: 0;
+}
+
+#navbar .hamburger-inner, #navbar .hamburger-inner::before, #navbar .hamburger-inner::after {
+    background: var(--color-light);
+}

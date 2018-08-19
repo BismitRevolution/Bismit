@@ -22,11 +22,11 @@
         <!-- Font Awesome -->
         <link rel="stylesheet" href="{{ asset('css/vendor/fontawesome-all.css') }}">
         <!-- Hamburger -->
-        <!-- <link rel="stylesheet" href="{{ asset('css/vendor/hamburgers.min.css') }}"> -->
+        <link rel="stylesheet" href="{{ asset('css/vendor/hamburgers.min.css') }}">
         <!-- FullPage Scrolling -->
         <link rel="stylesheet" href="{{ asset('css/vendor/fullpage.min.css') }}">
         <!-- Animate CSS -->
-        <!-- <link rel="stylesheet" href="{{ asset('css/vendor/animate.min.css') }}"> -->
+        <link rel="stylesheet" href="{{ asset('css/vendor/animate.min.css') }}">
         <!-- Basic Style -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <!-- Navbar Style -->
@@ -36,6 +36,7 @@
         <!-- Default Style -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         @yield('extra-css')
+        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
         <!-- Google Open Sans -->
         <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
@@ -43,7 +44,7 @@
         <title>@yield('title')</title>
     </head>
     <body>
-        <!-- @include('_loading') -->
+        @include('_loading')
         @include('layouts._header')
         <div class="">
         @yield('content')
@@ -83,14 +84,14 @@
         <!-- <script type="application/javascript" src="{{ asset('js/vendor/easings.min.js') }}"></script> -->
         <!-- <script type="application/javascript" src="{{ asset('js/vendor/scrolloverflow.min.js') }}"></script> -->
         <!-- <script type="application/javascript" src="{{ asset('js/vendor/fullpage.min.js') }}"></script> -->
-        <!-- <script type="application/javascript" src="{{ asset('js/vendor/fullpage.extensions.min.js') }}"></script> -->
+        <script type="application/javascript" src="{{ asset('js/vendor/fullpage.extensions.min.js') }}"></script>
 
         <!-- Customization -->
         <script type="application/javascript" src="{{ asset('js/app.js') }}"></script>
         <script type="application/javascript" src="{{ asset('js/_header.js') }}"></script>
         <script type="application/javascript" src="{{ asset('js/_footer.js') }}"></script>
         @yield('extra-js')
-        <!-- <script type="application/javascript" src="{{ asset('js/_finish.js') }}"></script> -->
+        <script type="application/javascript" src="{{ asset('js/_finish.js') }}"></script>
 
         @include('layouts._footer')
     </body>
