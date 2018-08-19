@@ -14,3 +14,22 @@
     animation-duration: 2s;
     animation-delay: 2s;
 }
+
+#projects .slide .overlay-container {
+    background: none;
+    background-position: center;
+}
+
+#projects .slide .overlay-container.screen {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#projects .project-detail {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+}
+
+#projects .fp-slidesNav.fp-bottom {
+    text-align: center;
+}

@@ -113,6 +113,10 @@
     height: 100vh;
 }
 
-.fp-controlArrow {
-    opacity: 0;
+.fp-controlArrow.fp-prev {
+    margin-left: 5vw;
+}
+
+.fp-controlArrow.fp-next {
+    margin-right: 5vw;
 }

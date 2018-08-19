@@ -21,9 +21,32 @@
         </div>
     </div>
     <div id="projects" class="section bg-blue dark" data-anchor="section-projects">
-        <div class="container grid-x grid-padding-x align-middle">
-            <h1 class="cell small-12 medium-shrink title text-left">SEE <span class="light">PROJECTS</span></h1>
-            <h2 class="cell small-12 medium-auto subtitle text-right">SLIDE <span class="light">RIGHT</span><br>TO SEE</h2>
+        <div class="slide">
+            <div class="container grid-x grid-padding-x align-middle">
+                <h1 class="cell small-12 medium-shrink title text-left">SEE <span class="light">PROJECTS</span></h1>
+                <h2 class="cell small-12 medium-auto subtitle text-right">SLIDE <span class="light">RIGHT</span><br>TO SEE</h2>
+            </div>
+        </div>
+        <!-- <div class="slide" style="background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url({{ asset('img/portofolio/EUREKA/04.png') }});"> -->
+        <div class="slide">
+            <div class="overlay-container" style="background-image: url({{ asset('img/portofolio/EUREKA/04.png') }});">
+                <div class="overlay-content">
+                    <div class="container grid-x grid-padding-x align-middle" style="height: 75vh;">
+                        <div class="cell small-12 medium-shrink text-left project-detail">
+                            <h1 class="title text-left">EUREKA</h1>
+                            <h3 class="subtitle text-left">E-COMMERCE WEBSITE</h3>
+                        </div>
+                        <div class="cell small-12 medium-auto text-center">
+                            <div class="overlay-container screen" style="background-image: url({{ asset('img/computer.png') }});">
+                                <!-- <img src="{{ asset('img/computer.png') }}" alt="computer"> -->
+                                <div class="overlay-content grid-x align-middle align-center text-center" style="height: 50vh; width: 100%;">
+                                    <button class="button success light" type="button" name="button">SEE MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

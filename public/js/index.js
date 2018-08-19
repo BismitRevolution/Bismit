@@ -12,6 +12,8 @@ $(document).ready(function() {
         autoScrolling: true,
         slidesNavigation: true,
         // scrollHorizontally: true,
+        loopHorizontal: false,
+        resetSliders: true,
 
         afterLoad: function(origin, destination, direction) {
             var loadedSlide = this;
